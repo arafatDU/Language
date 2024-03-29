@@ -1,6 +1,14 @@
 my_string = "This is my string"
 
 puts my_string
+puts my_string.class
+# puts my_string.methods
+puts my_string[0]
+puts my_string[0, 3]
+puts my_string[0..3]
+puts my_string[0, my_string.length]
+puts my_string[-1]
+
 
 puts "Size method: " + my_string.size.to_s
 puts "Length method: " + my_string.length.to_s
@@ -18,3 +26,4 @@ puts "Split method: " + my_string.split("i").to_s
 puts "Split method: " + my_string.split("i").join("I")
 puts "Split method: " + my_string.split("i").join("I").split("I").join("i")
 puts "Concat method: " + my_string.concat(" - Concatenated")
+puts "Empty method: " + my_string.empty?.to_s
