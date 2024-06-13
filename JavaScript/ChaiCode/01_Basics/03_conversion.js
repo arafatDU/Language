@@ -40,3 +40,33 @@ let someNum = 35;
 someNum = true;
 let numStr = String(someNum);
 console.log(numStr, typeof numStr);
+
+
+
+
+// *****************************Operations*******************************
+let value = 35;
+let negValue = -value;
+// console.log(negValue);
+
+// console.log(5 + 5);
+// console.log(5 - 5);
+// console.log(5 * 5);
+// console.log(5 / 5);
+// console.log(5 ** 5);
+// console.log(5 % 5);
+
+console.log(1 + 2 + "3");
+console.log(1 + "2" + 3);
+console.log("1" + 2 + 3);
+
+console.log(+true);
+console.log(+"");
+
+let num1, num2, num3;
+num1 = num2 = num3 = 5;
+
+let gameCounter = 35;
+gameCounter++;
+--gameCounter;
+console.log(gameCounter);
